@@ -1,0 +1,15 @@
+{{ define "index" }}
+
+  {{ template "header" }}
+
+        <main class="px-3">
+            <h1>Результат</h1>
+            <p class="lead">
+                {{ . }}
+            </p>
+            <a href="/index" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Назад</a>
+        </main>
+
+  {{ template "footer" }}
+
+{{ end }}
